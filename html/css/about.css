@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+h1,h2{
+	text-align: center;
+	width: 300px;
+	margin: 50px auto;
+
+	background-image:url("../images/a3.png");
+	background-size: 300px 50px;
+
+	
+}
+
+
+#image1,#image2,#image3{
+	width: 150px;
+	margin: 10px 0px;
+}
+#A,#B,#C{
+	float: left;
+	margin: 10px 20px;
+}
+.clear{
+	clear:both;
+}
+#member p{
+	border-bottom: solid 2px #fff352;
+}
+
+/*テーブルの設定*/
+#tbody{
+	font-size: 12px;
+	widows: 700px;
+	
+}
+
+.center{
+	font-size: 15px;
+	color: #352300;
+}
+
+.delay2{
+	background-color:#fff352;
+	color:#000;
+   }
+
+table.type08 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-left: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+table.type08 thead th {	
+	text-align: center;  /*text中央揃え*/
+	
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 2px solid #fff352;
+	background: #dcdcd1;
+}
+table.type08 tbody th {
+	width: 100px;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: #ececec;
+}
+table.type08 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	background-color: #ffffff80;
+	
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #cccccc8e;
+}
+
+.text_name{
+	text-align: center;
+
+	width:500px ;
+	margin: 30px auto;
+	font-size:30px;
+}
+
+.text_artist{
+	margin: 30px auto;
+	width: 500px;
+	text-align: center;
+
+}
+.a1{
+	
+	padding: 20px 0px;
+
+	background-image: url("../images/a3.png");
+	background-size: 500px 90px;
+}
+
+.b1{
+	
+	padding: 20px 0px;
+
+	background-image: url("../images/a2.png");
+	background-size: 500px 90px;
+}
+
+.c1{
+	
+	padding: 20px 0px;
+
+	background-image: url("../images/a9.png");
+	background-size: 500px 90px;
+}
+
+.a2{
+	
+	padding: 20px ;
+
+	background-image: url("../images/ki.png");
+	background-size: 540px 300px;
+}
+
+.b2{
+	
+	padding: 20px ;
+
+	background-image: url("../images/aka.png");
+	background-size: 540px 300px;
+}
+.c2{
+	
+	padding: 20px;
+
+	background-image: url("../images/ao.png");
+	background-size: 540px 300px;
+}

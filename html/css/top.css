@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.entry{
+ text-align: center;  /*text中央揃え*/
+
+ padding-bottom:100px;
+ width:600px;
+ padding-top:50px;
+}
+
+.delay1{
+ background-color:#fff352;
+ color:#000;
+}
+
+#main_text{
+
+ width:380px;
+ height: 220px;
+ margin: 0 auto;
+ padding:90px;
+ font-size:15px;
+background-image: url("../images/bed5d4b0c9640308edfd2b8a1e450d39.png");
+background-size: 600px 400px;
+}
+
+#main_text p{
+ 
+ font-weight:600;
+ font-size:11px;
+ padding:10px;
+
+}
+
+h1{
+ font-size:40px;
+ color:#6c6c6c;
+ width:300px;
+ margin:100px auto ;
+ background-image:url("../images/a3.png");
+}
+
+h2{
+
+ font-size:20px;
+ margin-top:20px;
+}
+
+.music{
+ width:200px;
+ height:200px;
+ 
+ margin:30px auto;
+
+ background-color: #ff06ca;
+ border: solid 3px #000;
+
+}
+.music_imag{
+width: 200px;
+margin-top:45px; 
+
+
+}
+.white{
+
+margin:50px auto; 
+}
+
+
+
+.text_music{
+
+ width:400px;
+ height: 360px;
+ margin:0 auto;
+ padding-top:20px;
+
+}
+.text_music p{
+
+ font-size:15px;
+
+}
+
+#w1{
+
+    background-image: url("../images/dot_blue7.png");
+    background-size:400px 400px;
+}
+#w2{
+
+    background-image: url("../images/dot_orange.png");
+    background-size:400px 400px;
+}
+

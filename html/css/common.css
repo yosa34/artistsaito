@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+*{
+ margin:0;
+
+ font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+body{
+
+  background-image:url(../images/haikei.jpeg) ;
+}
+
+.wrapper{
+
+ width: 800px;
+ margin: 0 auto;
+}
+
+#menu{
+
+ width: 200px;
+ height: 100%;
+ 
+ float: left; 
+ padding-top: 15px;
+ 
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+
+}
+
+
+#image{
+
+ width:150px;
+ height: 150px;
+ margin: 0px 25px;
+ 
+background-image: url("../images/icon.png");
+background-size:150px 150px;
+}
+
+
+#list{
+ 
+ margin-top: 50px;
+
+}
+
+ul{
+ list-style: none;
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+
+}
+
+li{
+
+transform: rotate(-15deg);/*テキストを斜めに（-10度）*/
+ font-size: 17px;
+ background-color: #ffffff85;
+ margin: 15px 15px;
+ width: 170px;
+}
+
+ul.list a {
+ padding: 10px 55px;
+ display: block;
+
+ /*text中央揃え*/
+ text-align: center;
+
+}
+/*リンクにカーソルが重なった時*/
+ul.list a:hover {
+ background-color: #fff352;
+ color: #000;
+}
+a:link{text-decoration:none; color:#000;} 	/*未訪問のリンクを示す文字の色を設定*/
+a:visited{text-decoration: none; color: #000}/*訪問済みのリンクをしめす文字の色を選択*/
+a:alink{ text-decoration:none; color:#fff352;background-color: #fff352;} 	/*選択中のリンクを示す文字の色を設定 */
+
+
+.main{
+ margin-left: 200px;
+ float: left;
+ width: 600px;
+ height: 100%;
+ 
+
+}
+/*top画像*/
+.image_main{
+
+width: 100%;
+height: auto;
+}
+
+#top{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+
+    width: 100px;
+    height:100px;
+  }
+  #return{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+
+
+    width: 100px;
+    height:100px;
+
+  }
+
+
+
